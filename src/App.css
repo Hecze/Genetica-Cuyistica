@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.sidebar {
+  display: none;
+}
+
+.cuy {
+  cursor: pointer;
+}
