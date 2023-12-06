@@ -1,8 +1,10 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Genetica-Cuyistica
+Simulación realista de la herencia genética en el Cavia porcellus (Cuy). Basado en las leyes postmendelianas:
+### 1. Dominancia incompleta: 
+  Se da cuando un organismo heterocigoto presenta un fenotipo intermedio entre las dos características.
+### 2. Codominancia: 
+  Se presenta cuando en un individuo heterocigoto se manifiesta ambos genes al mismo tiempo.
+### 3. Alelos múltiples:  
+  Es cuando una característica genética tiene más de dos posibles manifestaciones.
+### 4. Herencia ligada al sexo: 
+  Características genéticas que se encuentran codificadas en los cromosomas sexuales. Su forma de transmisión es diferente. 
