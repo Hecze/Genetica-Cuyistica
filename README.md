@@ -28,7 +28,7 @@ Ademas siempré podras consultar la Cuypedia para mas información
 
 # Descargalo ya! 
 
- Pronto Disponible en Ios y Android
+ Pronto disponible en Ios y Android
  
 ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/dowload.png)
 
