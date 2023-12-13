@@ -12,7 +12,17 @@ Simulación realista de la herencia genética en el Cavia porcellus (Cuy). Basad
 ### 4. Herencia ligada al sexo: 
   Características genéticas que se encuentran codificadas en los cromosomas sexuales. Su forma de transmisión es diferente. 
   
-# Jugando aprenderas todos los genes de esta bella especie
+# Jugando aprenderás todos los genes de esta bella especie
 
 Ademas siempré podras consultar la Cuypedia para mas información
+
 ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/cuypedia.jpeg)
+
+# Descargaló ya! 
+
+ Disponible en Ios y Android
+ 
+![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/mobile.jpeg)
+
+![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/playstore.jpeg)
+ 
