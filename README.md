@@ -9,7 +9,7 @@ Simulación realista de la herencia genética en el Cavia porcellus (Cuy). Basad
 
   Se presenta cuando en un individuo heterocigoto se manifiesta ambos genes al mismo tiempo.
 
-  ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/codominancia.png)
+  ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/codominancia.jpg)
   
 ### 3. Alelos múltiples:  
   Es cuando una característica genética tiene más de dos posibles manifestaciones.
