@@ -1,6 +1,8 @@
 # Genetica-Cuyistica
 Simulación realista de la herencia genética en el Cavia porcellus (Cuy). Basado en las leyes postmendelianas
+
 ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/portada.jpeg)
+
 ### 1. Dominancia incompleta: 
   Se da cuando un organismo heterocigoto presenta un fenotipo intermedio entre las dos características.
 ### 2. Codominancia: 
@@ -9,3 +11,8 @@ Simulación realista de la herencia genética en el Cavia porcellus (Cuy). Basad
   Es cuando una característica genética tiene más de dos posibles manifestaciones.
 ### 4. Herencia ligada al sexo: 
   Características genéticas que se encuentran codificadas en los cromosomas sexuales. Su forma de transmisión es diferente. 
+  
+# Jugando aprenderas todos los genes de esta bella especie
+
+Ademas siempré podras consultar la Cuypedia para mas información
+![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/Cuypedia.jpeg)
