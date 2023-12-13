@@ -22,7 +22,6 @@ Ademas siempré podras consultar la Cuypedia para mas información
 
  Disponible en Ios y Android
  
-![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/mobile.jpeg)
+![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/dowload.jpeg)
 
-![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/playstore.jpeg)
  
