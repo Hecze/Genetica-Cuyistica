@@ -15,4 +15,4 @@ Simulación realista de la herencia genética en el Cavia porcellus (Cuy). Basad
 # Jugando aprenderas todos los genes de esta bella especie
 
 Ademas siempré podras consultar la Cuypedia para mas información
-![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/Cuypedia.jpeg)
+![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/cuypedia.jpeg)
