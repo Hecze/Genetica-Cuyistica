@@ -18,7 +18,7 @@ Ademas siempré podras consultar la Cuypedia para mas información
 
 ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/cuypedia.jpeg)
 
-# Descargaló ya! 
+# Descargalo ya! 
 
  Disponible en Ios y Android
  
