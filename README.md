@@ -4,7 +4,10 @@ Simulación realista de la herencia genética en el Cavia porcellus (Cuy). Basad
 ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/portada.jpg)
 
 ### 1. Dominancia incompleta: 
+
   Se da cuando un organismo heterocigoto presenta un fenotipo intermedio entre las dos características.
+
+    ![](https://github.com/Hecze/Genetica-Cuyistica/blob/main/readme/incompleta.jpg)
 ### 2. Codominancia: 
 
   Se presenta cuando en un individuo heterocigoto se manifiesta ambos genes al mismo tiempo.
