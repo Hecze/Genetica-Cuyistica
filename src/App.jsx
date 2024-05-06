@@ -45,6 +45,9 @@ let bosqueImg; // Variable para almacenar la imagen
 let scaleFactor = 1;
 let cuyTextures = []; // Variable para almacenar las texturas individuales de los cuyes
 const sound_agarrar = new Audio("/sounds/agarrar.mp3");
+// Reducir el volumen a la mitad
+sound_agarrar.volume = 0.2;
+
 
 const initial_genotypes_mother = ["oo", "lL", "Aa", "Ff", "nn", "cc", "PPPPp", "NNn"]
 const initial_genotypes_father = ["Oo", "ll", "Aa", "Ff", "nn", "cc", "PPppp", "nnn"]
@@ -351,6 +354,7 @@ const App = () => {
           //reproducir sonido aleatorio entre ./sounds/choque1.mp3 y ./sounds/choque3.mp3
           const soundIndex = p.floor(p.random(1, 4));
           const sound = new Audio(`/sounds/choque${soundIndex}.mp3`);
+          sound.volume = 0.5;
           sound.play();
 
         }
@@ -484,6 +488,7 @@ const App = () => {
               cuyes.push(newCuy);
               //reproducir sonido ./sounds/birth.mp3
               const sound = new Audio("/sounds/birth.mp3");
+              sound.volume = 0.2;
               sound.play();
 
               break;
