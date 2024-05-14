@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import './App.css';
 
 import p5 from "p5";
 
@@ -516,6 +517,7 @@ const App = () => {
       p.preload = () => {
         // Cargamos la imagen "bosque" antes de que comience el sketch
         bosqueImg = p.loadImage("/assets/bosque.jpg");
+        
         // Cargar la imagen de cuyes individuales antes de iniciar el sketch
         const cuyImage = p.loadImage("/assets/cuyes.png", () => {
           const gridWidth = cuyImage.width / 4; // Ancho de cada cuadro de la cuadrícula
