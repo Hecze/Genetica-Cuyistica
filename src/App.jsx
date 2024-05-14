@@ -309,7 +309,9 @@ const App = () => {
 
           // Retornamos un nuevo cuy con los genotipos resultantes del cruce
           const cuyito = new Cuy(newGenotypes);
-
+          //darle la entre del padre y la madre
+          cuyito.x = (cuy1.x + cuy2.x) / 2;
+          cuyito.y = (cuy1.y + cuy2.y) / 2;
           return cuyito;
         }
 
@@ -559,7 +561,7 @@ const App = () => {
         }
       };
 
-      p.touchMoved = () => {
+      p.mouseMoved = () => {
         let cursorChanged = false;
         for (const cuy of cuyes) {
           if (cuy.contains(p.mouseX, p.mouseY)) {
