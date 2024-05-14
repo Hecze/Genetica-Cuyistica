@@ -559,7 +559,7 @@ const App = () => {
         }
       };
 
-      p.mouseMoved = () => {
+      p.touchMoved = () => {
         let cursorChanged = false;
         for (const cuy of cuyes) {
           if (cuy.contains(p.mouseX, p.mouseY)) {
@@ -576,7 +576,7 @@ const App = () => {
         }
       };
 
-      p.mousePressed = () => {
+      p.touchStarted = () => {
         let foundCuy = false;
         for (const cuy of cuyes) {
           if (cuy.contains(p.mouseX, p.mouseY)) {
@@ -604,7 +604,7 @@ const App = () => {
         }
       };
 
-      p.mouseReleased = () => {
+      p.touchEnded = () => {
         if (draggingCuy) {
           releaseCuy();
         }
