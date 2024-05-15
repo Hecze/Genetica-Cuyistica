@@ -3,7 +3,6 @@ import './App.css';
 
 import p5 from "p5";
 
-//genotipos pelaje textura base
 const genotype_index = {
   "OO": "corto",
   "Oo": "corto",
@@ -14,7 +13,7 @@ const genotype_index = {
   "AA": "orejas paradas",
   "Aa": "orejas paradas",
   "aa": "orejas caidas",
-  
+
   //determina la cantidad de pigmento naranja
   "PPPPP": "marron", 
   "PPPPp": "naranja oscuro", 

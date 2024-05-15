@@ -7,6 +7,8 @@ El software proporciona una herramienta interactiva para simular la herencia gen
 
 Los cuyes son representados como objetos genéticos, cada uno con un conjunto de alelos que determinan características como la longitud y textura del pelaje, el color, la forma de las orejas y el sexo. Al realizar un cruce entre dos cuyes, el software emplea algoritmos genéticos para combinar los genotipos parentales y determinar los genotipos de la descendencia, siguiendo las leyes de Mendel y otros principios genéticos postmendelianos.
 
+![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/genotipos.PNG)
+
 ## 2. Inferencia de Fenotipos
 
 El proceso de inferencia de fenotipos en el software implica la utilización de texturas base diseñadas por el programador. Estas texturas base contienen colores predefinidos, como azul, verde, entre otros. El programador diseña tres texturas bases que representan diferentes partes del cuerpo del cuye, como pelaje, orejas, nariz, etc.
