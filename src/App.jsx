@@ -14,20 +14,14 @@ const genotype_index = {
   "AA": "orejas paradas",
   "Aa": "orejas paradas",
   "aa": "orejas caidas",
-
-  /*
-  6 tipos de pigmentacion: 
-  blanco,  crema claro, crema, naranja,  marron y negro
-  */
-
+  
   //determina la cantidad de pigmento naranja
-  "PPPPP": "marron", // marron
-  "PPPPp": "naranja oscuro", // naranja oscuro
-  "PPPpp": "naranja", // naranja
-  "PPppp": "crema", // crema 
-  "Ppppp": "crema claro", // crema claro
+  "PPPPP": "marron", 
+  "PPPPp": "naranja oscuro", 
+  "PPPpp": "naranja", 
+  "PPppp": "crema", 
+  "Ppppp": "crema claro", 
   "ppppp": "sin pigmento", // no tiene pigmento naranja
-
 
   //determinar la cantidad de pigmento negro, blanco o marron en las manchas
   "NNN": "blanco", // blanco
@@ -593,6 +587,7 @@ const App = () => {
       };
 
       p.draw = () => {
+        let hoveredCuyGenotypes = ""; // Variable para almacenar los genotipos del cuy sobre el que está el cursor
         // Calculamos el factor de escala para la imagen
         scaleFactor = Math.max(p.width / bosqueImg.width, p.height / bosqueImg.height);
 
@@ -614,6 +609,10 @@ const App = () => {
             cuy.updatePosition(); // Actualizamos la posición del cuy en cada frame
             cuy.scaleFactor = 1.0; // Nuevo: Restablecemos el tamaño del cuy al valor predeterminado
           }
+          if (cuy.contains(p.mouseX, p.mouseY)) {
+            // Almacena los genotipos del cuy sobre el que está el cursor
+            hoveredCuyGenotypes = `${cuy.genotypes.join(", ")}`;
+        }
 
           cuy.updatePosition(); // Actualizamos la posición del cuy en cada frame
           cuy.display();
@@ -637,7 +636,12 @@ const App = () => {
             }
           }
         }
-
+        p.push();
+        p.fill(255);
+        p.textSize(24);
+        p.textAlign(p.CENTER, p.BOTTOM);
+        p.text(hoveredCuyGenotypes, p.mouseX, p.mouseY);
+        p.pop();
         handleCollisions(); // Detectamos colisiones y aplicamos fuerzas de empuje
       };
     }; // Fin del sketch
