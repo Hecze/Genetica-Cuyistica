@@ -35,9 +35,6 @@ const genotype_index = {
   "Nnn": "negro", // negro
   "nnn": "sin manchas",  // no tiene manchas
 
-
-
-
 }
 
 
@@ -271,8 +268,6 @@ const App = () => {
           p.pop(); // Restauramos el estado anterior
         }
 
-
-
         // Función para cruzar dos cuyes y obtener su descendencia
         static cruzar(cuy1, cuy2) {
           const newGenotypes = [];
@@ -314,9 +309,6 @@ const App = () => {
           cuyito.y = (cuy1.y + cuy2.y) / 2;
           return cuyito;
         }
-
-
-
 
         contains(x, y) {
           const isInside = p.dist(this.x, this.y, x, y) < this.size / 2;
@@ -470,8 +462,6 @@ const App = () => {
         }
       }
 
-
-
       function releaseCuy() {
         //si se soltó el cuy encima de otro cuy, reproducir
         function breedIfSameLocationAsOtherCuy() {
@@ -520,27 +510,6 @@ const App = () => {
         // Cargamos la imagen "bosque" antes de que comience el sketch
         bosqueImg = p.loadImage("/assets/bosque.jpg");
         
-        // Cargar la imagen de cuyes individuales antes de iniciar el sketch
-        const cuyImage = p.loadImage("/assets/cuyes.png", () => {
-          const gridWidth = cuyImage.width / 4; // Ancho de cada cuadro de la cuadrícula
-          const gridHeight = cuyImage.height / 5; // Alto de cada cuadro de la cuadrícula
-          const borderSize = 80; // Tamaño del recorte del borde (1 píxel en este caso)
-          for (let i = 0; i < 5; i++) {
-            for (let j = 0; j < 4; j++) {
-              const textureX = j * gridWidth + borderSize; // Agregar borderSize al inicio
-              const textureY = i * gridHeight + borderSize; // Agregar borderSize al inicio
-              const textureWidth = gridWidth - 2 * borderSize; // Restar el doble de borderSize
-              const textureHeight = gridHeight - 2 * borderSize; // Restar el doble de borderSize
-              const texture = cuyImage.get(
-                textureX,
-                textureY,
-                textureWidth,
-                textureHeight
-              );
-              cuyTextures.push(texture);
-            }
-          }
-        });
       };
 
       p.setup = () => {
@@ -578,7 +547,7 @@ const App = () => {
         }
       };
 
-      p.touchStarted = () => {
+      p.mousePressed = () => {
         let foundCuy = false;
         for (const cuy of cuyes) {
           if (cuy.contains(p.mouseX, p.mouseY)) {
@@ -606,7 +575,7 @@ const App = () => {
         }
       };
 
-      p.touchEnded = () => {
+      p.mouseReleased = () => {
         if (draggingCuy) {
           releaseCuy();
         }
@@ -625,10 +594,7 @@ const App = () => {
 
       p.draw = () => {
         // Calculamos el factor de escala para la imagen
-        scaleFactor = Math.max(
-          p.width / bosqueImg.width,
-          p.height / bosqueImg.height
-        );
+        scaleFactor = Math.max(p.width / bosqueImg.width, p.height / bosqueImg.height);
 
         // Calculamos las coordenadas del recorte necesario para mantener la relación de aspecto de la imagen
         const cropWidth = bosqueImg.width * scaleFactor;
