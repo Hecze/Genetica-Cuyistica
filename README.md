@@ -19,7 +19,7 @@ Durante la ejecución del programa, la computadora utiliza estas texturas base c
 
 ![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/fenotipos_ejemplo.png)
 
-Este enfoque garantiza una representación visual precisa de las características físicas de los cuyes, permitiendo una experiencia de usuario más rica y detallada en la simulación de la herencia genética.
+Este enfoque garantiza una representación visual precisa de las características físicas de los cuyes, permitiendo una experiencia de usuario más rica y detallada en la simulación de la herencia genética. Esta tecnología permite tener hasta un total de 96 texturas generadas por computadora sin tener que dibujarlas una por una.
 
 # Aplicaciones Potenciales
 
