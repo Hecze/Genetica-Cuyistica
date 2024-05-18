@@ -13,9 +13,11 @@ Los cuyes son representados como objetos genéticos, cada uno con un conjunto de
 
 El proceso de inferencia de fenotipos en el software implica la utilización de texturas base diseñadas por el programador. Estas texturas base contienen colores predefinidos, como azul, verde, entre otros. El programador diseña tres texturas bases que representan diferentes partes del cuerpo del cuye, como pelaje, orejas, nariz, etc.
 
-![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/FENOTIPOS.PNG)
+![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/fenotipos_base.png)
 
 Durante la ejecución del programa, la computadora utiliza estas texturas base como referencia para generar una variedad infinita de texturas, dependiendo de los fenotipos calculados para la descendencia. La textura original se utiliza como una plantilla para determinar las diferentes partes del cuye, permitiendo que el programa las pinte con los colores correspondientes según los genes heredados.
+
+![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/fenotipos_ejemplo.png)
 
 Este enfoque garantiza una representación visual precisa de las características físicas de los cuyes, permitiendo una experiencia de usuario más rica y detallada en la simulación de la herencia genética.
 
