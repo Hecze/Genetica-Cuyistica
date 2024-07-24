@@ -1,35 +1,35 @@
+# Software Functionality
 
-# Funcionamiento del Software
+The software provides an interactive tool for simulating genetic inheritance in guinea pigs (*Cavia porcellus*), applying post-Mendelian laws. It allows for the inference of genotypes and phenotypes of the progeny resulting from crossings between individuals.
 
-El software proporciona una herramienta interactiva para simular la herencia genética en cuyes (Cavia porcellus), aplicando leyes postmendelianas. Permite inferir los genotipos y fenotipos de la progenie resultante de los cruzamientos entre individuos.
+## 1. Genotype Inference
 
-## 1. Inferencia de Genotipos
-
-Los cuyes son representados como objetos genéticos, cada uno con un conjunto de alelos que determinan características como la longitud y textura del pelaje, el color, la forma de las orejas y el sexo. Al realizar un cruce entre dos cuyes, el software emplea algoritmos genéticos para combinar los genotipos parentales y determinar los genotipos de la descendencia, siguiendo las leyes de Mendel y otros principios genéticos postmendelianos.
+Guinea pigs are represented as genetic objects, each with a set of alleles that determine traits such as fur length and texture, color, ear shape, and sex. When performing a cross between two guinea pigs, the software employs genetic algorithms to combine the parental genotypes and determine the offspring's genotypes, following Mendelian laws and other post-Mendelian genetic principles.
 
 ![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/genotipos.PNG)
 
-## 2. Inferencia de Fenotipos
+## 2. Phenotype Inference
 
-El proceso de inferencia de fenotipos en el software implica la utilización de texturas base diseñadas por el programador. Estas texturas base contienen colores predefinidos, como azul, verde, entre otros. El programador diseña tres texturas bases que representan diferentes partes del cuerpo del cuye, como pelaje, orejas, nariz, etc.
+The process of phenotype inference in the software involves using base textures designed by the programmer. These base textures contain predefined colors, such as blue, green, among others. The programmer designs three base textures representing different parts of the guinea pig's body, such as fur, ears, nose, etc.
 
 ![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/fenotipos_base.png)
 
-Durante la ejecución del programa, la computadora utiliza estas texturas base como referencia para generar una variedad infinita de texturas, dependiendo de los fenotipos calculados para la descendencia. La textura original se utiliza como una plantilla para determinar las diferentes partes del cuye, permitiendo que el programa las pinte con los colores correspondientes según los genes heredados.
+During program execution, the computer uses these base textures as references to generate an infinite variety of textures, depending on the phenotypes calculated for the offspring. The original texture serves as a template to determine different parts of the guinea pig, allowing the program to paint them with the corresponding colors based on inherited genes.
 
 ![img](https://github.com/Hecze/Genetica-Cuyistica/blob/main/fenotipos_ejemplo.png)
 
-Este enfoque garantiza una representación visual precisa de las características físicas de los cuyes, permitiendo una experiencia de usuario más rica y detallada en la simulación de la herencia genética. Esta tecnología permite tener hasta un total de 96 texturas generadas por computadora sin tener que dibujarlas una por una.
+This approach ensures an accurate visual representation of the guinea pigs' physical characteristics, providing a richer and more detailed user experience in simulating genetic inheritance. This technology allows for up to a total of 96 computer-generated textures without having to draw them one by one.
 
-# Aplicaciones Potenciales
+# Potential Applications
 
-*1.Investigación Científica:* Permite simular y estudiar la herencia genética en cuyes para comprender mejor los procesos biológicos y genéticos subyacentes.
+1. **Scientific Research:** Allows for the simulation and study of genetic inheritance in guinea pigs to better understand underlying biological and genetic processes.
 
-*2.Educación:* Ofrece una herramienta interactiva para enseñar conceptos avanzados de genética mendeliana y postmendeliana.
+2. **Education:** Provides an interactive tool for teaching advanced concepts of Mendelian and post-Mendelian genetics.
 
-*3.Criadores de Cuyes:* Facilita la selección de cuyes para la cría con características deseables, optimizando así el proceso de mejoramiento genético de la especie.
+3. **Guinea Pig Breeders:** Facilitates the selection of guinea pigs for breeding with desirable traits, thereby optimizing the genetic improvement process of the species.
 
-# Consideraciones de Uso
+# Usage Considerations
 
-*Precisión Genética:* Si bien el software se basa en principios genéticos sólidos, se debe tener en cuenta que los resultados pueden variar debido a la simplificación del modelo y la aplicación de leyes postmendelianas.
-V1.1 el juego aun no cuenta con soporte para celulares
+- **Genetic Accuracy:** While the software is based on solid genetic principles, it should be noted that results may vary due to the model's simplification and the application of post-Mendelian laws.
+
+- **Version 1.1:** The game currently does not support mobile devices.
